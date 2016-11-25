@@ -1,0 +1,20 @@
+<!..%=f.select :category_ids , Category.all.collect{  |e| e.id  } %>
+<!..%= f.collection_select :id, @categories,
+                        :id, :name, { include_blank: true },
+                         { multiple: true } %><br>
+
+
+
+
+
+
+https://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through
+
+
+
+
+https://samurails.com/gems/jbuilder/
+
+
+
+http://guides.rubyonrails.org/v2.3.8/action_mailer_basics.html
